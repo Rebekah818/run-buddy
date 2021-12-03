@@ -151,52 +151,57 @@
                         </div>
     </section>
     <!-- meet the trainers section -->
-    <section id="your-trainers">
+    <section>
         <div class="flex-row">
             <h2 class="section-title primary-border">
                 Meet The Trainers
             </h2>
         </div>
         <!-- first trainer bio -->
-        <article>
-            <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-            <div class="trainer-bio">
-                <h3 class="trainer-name">Arron Stephens</h3>
-                <h4 class="trainer-role">Speed / Strength</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet cnsecteture adispisicing elit. sequi neuqe
-                </p>
-            </div>
-        </article>
-        <!-- second trainer bio -->\
-        <article>
-            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill colling off after a workout" />
-            <div class="trainer-bio">
-                <h3 class="trainer-name">Joanna Gill</h3>
-                <h4 class="trainer-role">Endurance</h4>
-                <p>loren ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi
-                    saepe culpa sed
-                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis
-                    repellat!
-                </p>
-            </div>
-        </article>
-        <!-- third trainer bio -->
-        <article>
-            <img src="./assets/images/trainer-3.jpg"
-                alt="Harry Smith wearing a headband and lifting comically smll pink weights" />
-            <div class="trainer-bio">
-                <h3 class="trainer-name">Harry "the headband" Smith</h3>
-                <h4 class="trainer-role">Strength</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi
-                    saepe culpa sed
-                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis
-                    repellat!
-                </p>
-            </div>
-        </article>
+        <div id="trainers">
+            <article class="trainer">
+                <img src="./assets/images/trainer-1.jpg"
+                    alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Aaron Stephens</h3>
+                    <h4 class="trainer-role">Speed / Strength</h4>
+                    <p>
+                        Lorem ipsum, dolor sit amet cnsecteture adispisicing elit. sequi neuqe
+                    </p>
+                </div>
+            </article>
+            <!-- second trainer bio -->
+            <article class="trainer">
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill colling off after a workout" />
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Joanna Gill</h3>
+                    <h4 class="trainer-role">Endurance</h4>
+                    <p>loren ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate
+                        commodi
+                        saepe culpa sed
+                        itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis
+                        repellat!
+                    </p>
+                </div>
+            </article>
+            <!-- third trainer bio -->
+            <article class="trainer">
+                <img src="./assets/images/trainer-3.jpg"
+                    alt="Harry Smith wearing a headband and lifting comically smll pink weights" />
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Harry "the headband" Smith</h3>
+                    <h4 class="trainer-role">Strength</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate
+                        commodi
+                        saepe culpa sed
+                        itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis
+                        repellat!
+                    </p>
+                </div>
+            </article>
         </div>
     </section>
+
     <!-- "reach out" start -->
     <section id="reach-out" class="contact">
         <div class="flex-row">
@@ -204,41 +209,42 @@
                 Reach Out
             </h2>
         </div>
-        <div class="contact-info">
-            <div>
+        <div class="contact-info-group">
+            <div class="contact-info">
                 <h3>Run Buddy</h3>
                 <p>Any question or concerns beofore signing up?
                     <br />
                     Let us know and we'll be happy to talk to you!
-                    </p>
+                </p>
 
-            <address>
-                55 Main Street <br />
-                Some Town, CA <br />
-                12345 <br />
-                P: <a href="tel:555.786.2839">555.RUN.BUDZ (555.786.2839)</a><br />
-                E: <a href="malto://info@runbuddy.io">info@runbuddy.io</a>
-            </address>
+                <address>
+                    55 Main Street <br />
+                    Some Town, CA <br />
+                    12345 <br />
+                    P: <a href="tel:555.786.2839">555.RUN.BUDZ (555.786.2839)</a><br />
+                    E: <a href="malto://info@runbuddy.io">info@runbuddy.io</a>
+                </address>
 
-        </div>
+            </div>
 
-        <div class="contact-info">
-            <h3>Contact Us</h3>
-            <form>
-                <label for="contact-name">Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name" />
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
 
-                <label for="contact-message">Message</label>
-                <textarea id="contact-message" placeholder="Message"></textarea>
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
 
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+                    <button type="submit">Submit</button>
+                </form>
 
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.8720692755874!2d-77.2072694843832!3d38.92690145280908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64ab796dc4265%3A0x7e11ef1e9be90c25!2sAnderson%20Rd%2C%20Tysons%2C%20VA%2022102!5e0!3m2!1sen!2sus!4v1637536366640!5m2!1sen!2sus"
-            frameborder="0" style="border:0" allowfullscreen></iframe>
-        
+            </div>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.8720692755874!2d-77.2072694843832!3d38.92690145280908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64ab796dc4265%3A0x7e11ef1e9be90c25!2sAnderson%20Rd%2C%20Tysons%2C%20VA%2022102!5e0!3m2!1sen!2sus!4v1637536366640!5m2!1sen!2sus"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+
         </div>
 
         <!-- Reach out section end -->
